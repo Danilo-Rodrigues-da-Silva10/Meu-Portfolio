@@ -1,0 +1,976 @@
+body{
+  background-color: black;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#inicio{
+  background-color: #ffffff;
+  display: inline;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 120px;
+  width: 100%;
+
+  /* Imagem de fundo */
+  background-image: url('imagens/geometrico.png'); /* Caminho da imagem de fundo */
+  background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+  background-position: center; /* Centraliza a imagem */  
+}
+
+.logomarca{
+  /* header */
+  background-color: blue ;
+  height: 0px;
+  width: 0px;
+}
+
+.logomarca img {
+  background-color: transparent;
+  height: 120px;
+  width: 180px;
+  display: inline;
+  display: flex;
+  margin-top: 5x;
+  margin-left: 30px;
+}
+
+#barradenav{
+  /* nav */
+  background-color: transparent;
+  height: 0px;                                                                                                                                                                                                                                                                    
+  width: 0px;
+}
+
+.barradenav ul{
+  background-color: transparent;
+  display: inline;    
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+
+  list-style-type: none; /* Remove as bolinhas da lista */
+  padding: 0; /* Remove o preenchimento padrão */
+  margin-bottom: 0px; /* Espaço entre os itens da lista */
+  margin-left: 230px;
+}
+
+.barradenav a{
+  background-color: transparent;
+  color: rgb(59, 62, 70);
+  font-size: 22px;
+  text-transform: uppercase;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-decoration: none; /*Tirar o sublinhado*/
+  margin-top: 28px;
+  display: inline-block;
+  transition: .2s;
+}
+
+nav a:hover {
+  /* Quando passar o mouse encima */
+  color: #000000;
+  transform: scale(1.05);
+}
+
+.contatos{
+  background-color: transparent;
+  height: 120px; 
+  width: 400px;
+  position: relative;
+  bottom: -40px;       /* Distância de 35px da parte inferior da tela */
+  margin-left: 0px;
+}
+
+.contatos a{
+  color: rgb(59, 62, 70);
+  background-color: transparent;
+  font-size: 30px;
+  margin-top: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+}
+
+.links i:hover {
+  transform: scale(1.05);  /* Aumenta o ícone quando o usuário passa o mouse */
+  color: #000000;         /* Muda a cor quando o ícone é hoverado */
+}
+
+/*TOPO DO SITE*/
+
+.topo-site{
+ /* main */
+  height: 500px;
+  width: 100%;
+  display: inline;
+  display: flex;
+  background-color: #124559;
+  margin-top: 5px;
+
+  /* Imagem de fundo */
+  background-image: url('imagens/geometrico.png'); /* Caminho da imagem de fundo */
+  background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+  background-position: center; /* Centraliza a imagem */ 
+}
+
+#text-topo-do-site{
+  height: 500px;
+  width: 700px;
+  display: flex; /*problema em inverter*/
+  display: inline;
+  margin-top: -20px;
+
+}
+
+.topo-site h1{
+  color: #fff;
+  font-family: "Zilla Slab", sans serif;
+  font-size: 75px; 
+  margin-left: 190px;
+  margin-top: 140px;
+  margin-bottom: 0;
+}
+
+.topo-site p{
+  color: #fff;
+  font-family: "Zilla Slab", sans serif;
+  font-size: 22px; 
+  margin-left: 245px;
+  margin-top: 20px;
+  margin-top: 0;
+
+  /* animação */
+  width: 27ch;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(27),
+  blinking 0.5s infinite step-end
+  alternate;
+}
+ /* animação */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blinking {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.topo-site img{
+  height: 400px;
+  width: 400px;
+  margin-left: 115px;
+  margin-top: 40px;
+
+}
+
+
+
+/*ESPECIALIDADES*/
+
+.especialidades{
+  /* main */
+  background-color: #124559;
+  height: 550px;
+  width: 100%;
+  display: inline;
+  display: flex;
+  margin-top: 3px;
+ 
+  /* Imagem de fundo */
+  background-image: url('imagens/geometrico.png'); /* Caminho da imagem de fundo */
+  background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+  background-position: center; /* Centraliza a imagem */ 
+}
+
+#section-especialidades{
+  background-color: transparent;
+  height: 80px;
+  width: 800px; 
+  margin-left: 240px;
+  margin-top: 10px;
+}
+
+#section-especialidades h2{
+  color: #ffffff;
+  font-family: "Zilla Slab", sans serif;
+  font-size: 45px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/*ESTILO DAS ESPECIALIDADES*/
+
+#especialidades-itens {
+  display: flex;            
+  gap: 40px;   /* Adiciona espaço entre os itens */
+  margin-left: 80px;
+}
+
+.especialidades-box {
+  background-color: #ffffff;
+  width: 100px;            
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+  border: 4px solid black;
+}
+
+.especialidades-box:hover {
+  transform: translateY(-10px);  /* animação para cima */
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.especialidades-box i {
+  color: #000000;
+  font-size: 50px;
+}
+
+.especialidades-box h3 {
+  color: #333;
+}
+
+.especialidades-box p {
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  line-height: 1.4;
+}
+
+/*SOBRE MIM*/
+
+#sobre{
+  background-color: #124559;
+  height: 550px;
+  width: 100%;
+  display: flex;
+  margin-top: 3px;
+  padding-top: 0px;
+  justify-content: flex-start; /* Alinha o conteúdo no início (à esquerda) */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+  /* Imagem de fundo */
+  background-image: url('imagens/geometrico.png'); /* Caminho da imagem de fundo */
+  background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+  background-position: center; /* Centraliza a imagem */ 
+  }
+
+#sobre-foto{
+  border-radius: 7px;
+  margin-left: 80px;
+  margin-right: 20px; /* Espaço entre a foto e o texto */
+}
+
+#sobre-foto img{
+  height: 420px;
+  width: 400px;   
+}
+
+#txt-sobre{
+  margin-left: 100px;
+  color: white;
+  font-size: 1.0rem;
+  max-width: 600px; /* Define a largura máxima do texto */
+  
+}
+
+.section-sobre h2{
+  color: white;
+  font-size: 2.0rem;
+}
+
+.section-sobre p {
+  color: white;
+  font-size: 1.2rem;
+
+}
+
+#projetos{
+  background-color: #124559;
+  height: 550px;
+  width: 100%;
+  margin-top: 3px;
+  display: flex;
+
+  /* Imagem de fundo */
+ background-image: url('imagens/geometrico.png'); /* Caminho da imagem de fundo */
+ background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+ background-position: center; /* Centraliza a imagem */ 
+}
+
+.section-projetos h2{
+ color: #ffffff;
+ font-size: 45px;
+ margin-top: 10px;
+ font-family: "Zilla Slab", sans serif;
+
+}
+
+#txt-projetos{
+  background-color: transparent;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+Class=.
+Id=#
+*/
+
+.fim{
+   /* footer */
+   background-color: #ffffff;
+   height: 100px;
+   width: 100%;
+   margin-top: 3px;
+   display: flex;
+   /* Imagem de fundo */
+   background-image: url('imagens/geometrico.png'); /* Caminho da imagem de fundo */
+   background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+   background-position: center; /* Centraliza a imagem */
+}
+
+.fim img{
+  height: 100px;
+  width: 170px;
+}
+
+.fim-contatos{
+margin-left: 100px;
+}
+
+.danilinho{
+font-size: 40px;
+margin-left: 10px;
+margin-top: -50px
+}
+
+.paragrafinho{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+
+.img-port{
+  background-size: cover;
+  height: 400px;
+  width: 700px;
+  margin-left: 590px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flex{
+  display: flex;
+}
+
+/*---RESPONSIVO---*/
+
+/* */
+
+
+/*CABEÇALHO*/
+@media screen and (max-width: 1020px){
+  .body{
+  display: none;
+  }
+}
+
+@media screen and (max-width: 1250px){
+  .contatos{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1250px){
+  .barradenav{
+  display: none;
+  }
+}
+/*FIM CABEÇALHO */
+
+
+/*RESPONSIVO 830PX*/
+  @media screen and (max-width: 830px){
+  .flex{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 830px){
+  .topo-site h1{
+    font-size: 85px; 
+    margin-left: 35px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .topo-site p{
+    font-size: 25px; 
+    margin-left: 180px;
+    margin-top: 0px;
+  }
+
+  .luna{
+    height: 300px;
+    width: 300px;
+    margin-left: 40px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    
+  }
+
+  .topo-site img{
+    height: 300px;
+    width: 300px;
+    margin-left: 180px;
+    margin-top: 0px;
+  
+  }
+
+  .topo-site{
+    height: 500px;
+    width: 100%;
+    margin-top: 5px; 
+  }
+
+/*ESPECIALIDADES*/
+
+.especialidades{
+  height: 800px;
+  width: 100%;
+  display: inline;
+  display: flex;
+  margin-top: 3px;
+  flex-direction: column;
+}
+
+#section-especialidades{
+  height: 80px;
+  width: 400px; 
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+
+#section-especialidades h2{
+  font-size: 45px;
+  margin-top: 10px;
+  margin-left: 55%;
+  text-align: center;
+}
+
+
+#especialidades-itens {
+  display: flex;            
+  gap: 40px;   /* Adiciona espaço entre os itens */
+  margin-left: 0px;
+  flex-direction: column;
+}
+
+
+.especialidades-box {
+  width: 500px;            
+  padding: 0px;
+  border-radius: 10px;
+  text-align: center;
+  border: 4px solid black;
+  margin-left: 130px;
+}
+
+
+.especialidades-box i {
+  color: #000000;
+  font-size: 50px;
+}
+
+
+/*FIM DO ESPECIALIDADES*/
+
+
+
+/*SOBRE MIM*/
+
+#sobre {
+  background-color: #124559;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  margin-top: 3px;
+  padding-top: 0px;
+  justify-content: flex-start; /* Alinha o conteúdo no início (à esquerda) */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+  flex-direction: column;
+}
+
+#sobre-foto img{
+  height: 300px;
+  width: 300px;
+}
+
+#sobre-foto{
+  height: 300px;
+  width: 300px;
+  margin-left: 0px;
+  margin-right: 0px; /* Espaço entre a foto e o texto */
+  margin-top: 30px;
+}
+
+
+#txt-sobre{
+  margin-top: -10px;
+  margin-left: 100px;
+  font-size: 1.0rem;
+  max-width: 600px; /* Define a largura máxima do texto */
+
+}
+
+#txt-sobre h2{
+  font-size: 30px;
+}
+/*FIM DO SOBRE MIM*/
+
+
+}
+
+
+
+/*RESPONSIVO 450PX*/
+
+/*TOPO DO SITE */
+@media (min-width:0px) and
+(max-width: 450px) {
+  .flex{
+  flex-direction: column;
+  }
+
+  .topo-site h1{
+    font-size: 55px; 
+    margin-left: -320px;
+    margin-top: 50px;
+  }
+  
+  .topo-site p{
+    font-size: 22px; 
+    margin-left: 45px;
+    margin-top: 0px;
+  }
+
+  .luna{
+    height: 300px;
+    width: 300px;
+    margin-left: 40px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+
+  .topo-site img{
+    height: 300px;
+    width: 300px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .topo-site{
+    height: 500px;
+    width: 100%;
+    margin-top: 5px;
+  }
+/*FIM DO TOPO DO SITE */
+
+
+
+/*ESPECIALIDADES*/
+
+  .especialidades{
+    height: 800px;
+    width: 100%;
+    display: inline;
+    display: flex;
+    margin-top: 3px;
+    flex-direction: column;
+  }
+
+  #section-especialidades{
+    height: 80px;
+    width: 400px; 
+    margin-left: -129px;
+    margin-top: 10px;
+  }
+
+
+  #section-especialidades h2{
+    font-size: 45px;
+    margin-top: 10px;
+    margin-left: 170px;
+  }
+
+
+  #especialidades-itens {
+    display: flex;            
+    gap: 40px;   /* Adiciona espaço entre os itens */
+    margin-left: 0px;
+    flex-direction: column;
+  }
+
+
+  .especialidades-box {
+    width: 380px;            
+    padding: 0px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+    border: 4px solid black;
+  }
+
+
+  .especialidades-box i {
+    color: #000000;
+    font-size: 50px;
+  }
+
+
+/*FIM DO ESPECIALIDADES*/
+
+
+
+/*SOBRE MIM*/
+
+  #sobre {
+    background-color: #124559;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    margin-top: 3px;
+    padding-top: 0px;
+    justify-content: flex-start; /* Alinha o conteúdo no início (à esquerda) */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    flex-direction: column;
+
+  }
+
+  #sobre-foto{
+    height: 300px;
+    width: 300px;
+    margin-left: 0px;
+    margin-right: 0px; /* Espaço entre a foto e o texto */
+    margin-top: 30px;
+  }
+
+
+  #txt-sobre{
+    margin-left: 10px;
+    font-size: 1.0rem;
+    max-width: 600px; /* Define a largura máxima do texto */
+  }
+
+  #txt-sobre h2{
+    font-size: 30px;
+  }
+  /*FIM DO SOBRE MIM*/
+
+}
+
+
+
+
+
+/*RESPONSIVO ENTRE 2000PX E 3000PX*/
+
+
+@media (min-width:2000px) and
+(max-width: 3000px) {
+  .barradenav a{
+    background-color: transparent;
+    color: rgb(59, 62, 70);
+    font-size: 35px;
+    text-transform: uppercase;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none; /*Tirar o sublinhado*/
+    margin-top: 28px;
+    display: inline-block;
+    transition: .2s;
+  }
+
+  .topo-site h1{
+    font-size: 105px; 
+    margin-left: 135px;
+    margin-top: 200px;
+    text-align: center;
+  }
+
+  .topo-site p{
+    font-size: 35px; 
+    margin-left: 180px;
+    margin-top: 0px;
+  }
+
+  .luna{
+    height: 300px;
+    width: 300px;
+    margin-left: 410px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+  }
+
+  .topo-site img{
+    height: 600px;
+    width: 600px;
+    margin-left: 0px;
+    margin-top: 30px;
+  
+  }
+
+  .topo-site{
+    height: 750px;
+    width: 100%;
+    margin-top: 5px; 
+  }
+
+/*ESPECIALIDADES*/
+
+.especialidades{
+  height: 400px;
+  width: 100%;
+  display: inline;
+  display: flex;
+  margin-top: 3px;
+  flex-direction: column;
+}
+
+#section-especialidades{
+  height: 80px;
+  width: 400px; 
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+
+#section-especialidades h2{
+  font-size: 45px;
+  margin-top: 10px;
+  margin-left: 800px;
+  text-align: center;
+}
+
+
+#especialidades-itens {
+  display: flex;            
+  gap: 10 0px;   /* Adiciona espaço entre os itens */
+  margin-left: 0px;
+  width: 1700px;  
+
+}
+
+
+.especialidades-box {
+  height: 200px;          
+  width: 1000px;  
+  padding: 0px;
+  border-radius: 10px;
+  border: 4px solid black;
+  margin-left: 130px;
+}
+
+
+.especialidades-box i {
+  color: #000000;
+  font-size: 50px;
+}
+
+
+/*FIM DO ESPECIALIDADES*/
+
+
+
+/*SOBRE MIM*/
+
+#sobre {
+  background-color: #124559;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  margin-top: 3px;
+  padding-top: 0px;
+  justify-content: flex-start; /* Alinha o conteúdo no início (à esquerda) */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+}
+
+#sobre-foto img{
+  height: 500px;
+  width: 500px;
+}
+
+#sobre-foto{
+  height: 300px;
+  width: 300px;
+  margin-left: 100px;
+  margin-right: 0px; /* Espaço entre a foto e o texto */
+  margin-bottom: 200px;
+}
+
+
+#txt-sobre{
+  margin-top: -10px;
+  margin-left: 400px;
+  max-width: 600px; /* Define a largura máxima do texto */
+
+}
+
+#txt-sobre h2{
+  font-size: 40px;
+}
+
+#txt-sobre p{
+  font-size: 24px;
+
+}
+
+/*FIM DO SOBRE MIM*/
+
+
+}
+
+
+
+
+
+
+
+
+/*ESTILO DO MENU MOBILE*/
+.menu-mobile{
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 99999;
+  width: 0%;
+  overflow: hidden;
+  transition: .5s;
+
+  /* Imagem de fundo */
+  background-image: url('imagens/geometrico.png'); /* Caminho da imagem de fundo */
+  background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+  background-position: center; /* Centraliza a imagem */  
+}
+
+.menu-mobile.abrir-menu{
+  width: 70%;
+}
+
+.menu-mobile.abrir-menu ~ .overlay-menu{
+  display: block;
+}
+
+
+
+
+
+.menu-mobile nav ul{
+  text-align: right;
+  list-style-type: none; /* Remove as bolinhas da lista */
+  padding: 0; /* Remove o preenchimento padrão */
+  
+}
+
+.menu-mobile nav ul li a{
+color: #fff;
+
+font-size: 20px;
+font-weight: 300;
+padding: 20px 10%;
+display: block;
+text-decoration: none; /*Tirar o sublinhado*/
+transition: 0.2s;
+}
+
+.menu-mobile nav ul li a{
+  background-color: #08206ea3;
+  color: #000000;
+  
+}
+
+.menu-mobile .btn-fechar i{
+  color: #042532;
+  font-size: 30px;
+
+}
+
+.menu-mobile .btn-fechar{
+  padding: 20px 5%;
+}
+
+.btn-abrir-menu i{
+  color: #000000;
+  font-size: 70px;
+  margin-left: 300px;
+}
+
+.overlay-menu{
+  background-color: #000000d0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 888;
+  display: none;
+}
+
+@media screen and (min-width: 1200px){
+  .btn-abrir-menu{
+    display: none;
+  }
+} /*qnd a tela for maior q 1200px o menu do celular some*/

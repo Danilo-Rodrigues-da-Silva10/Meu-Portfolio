@@ -1,0 +1,515 @@
+/*RESPONSIVO ENTRE 1280PX E 3000PX*/
+@media (min-width:1280px) and
+(max-width: 3000px) 
+{
+  .barradenav a{
+    background-color: transparent;
+    color: rgb(59, 62, 70);
+    font-size: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    margin-top: 28px;
+    display: inline-block;
+    transition: .2s;
+  }
+  .topo-site h1{
+    font-size: 105px; 
+    margin-left: 135px;
+    margin-top: 200px;
+    text-align: center;
+  }
+  .topo-site p{
+    font-size: 35px; 
+    margin-left: 180px;
+    margin-top: 0px;
+  }
+  .luna{
+    height: 300px;
+    width: 300px;
+    margin-left: 200px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+  .topo-site img{
+    height: 600px;
+    width: 600px;
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  .topo-site{
+    height: 750px;
+    width: 100%;
+    margin-top: 5px; 
+  }
+    /*ESPECIALIDADES*/
+    .especialidades{
+    height: 400px;
+    width: 100%;
+    display: inline;
+    display: flex;
+    margin-top: 3px;
+    flex-direction: column;
+    }
+    #section-especialidades{
+    height: 80px;
+    width: 400px; 
+    margin-left: -200px;
+    margin-top: 10px;
+  }    
+    #section-especialidades h2{
+    font-size: 45px;
+    margin-top: 10px;
+    margin-left: 800px;
+    text-align: center;
+  }
+    #especialidades-itens {
+   display: flex;            
+   gap: 10 0px;   
+   width: 1700px;  
+ }
+ .especialidades-box {
+   height: 200px;          
+   width: 1000px;  
+   padding: 0px;
+   border-radius: 10px;
+   border: 4px solid black;
+   margin-left: 130px;
+ }
+ .especialidades-box i {
+   color: #000000;
+   font-size: 50px;
+ }
+ /*FIM DO ESPECIALIDADES*/
+ /*SOBRE MIM*/
+ #sobre {
+  background-color: #124559;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  margin-top: 3px;
+  padding-top: 0px;
+  justify-content: flex-start; /* Alinha o conteúdo no início (à esquerda) */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+ }
+  #sobre-foto img{
+  height: 500px;
+  width: 500px;
+ }
+ #sobre-foto{
+   height: 300px;
+   width: 300px;
+   margin-left: 100px;
+   margin-right: 0px; /* Espaço entre a foto e o texto */
+   margin-bottom: 200px;
+ }
+ #txt-sobre{
+   margin-top: -10px;
+   margin-left: 400px;
+   max-width: 600px; /* Define a largura máxima do texto */
+ }
+ #txt-sobre h2{
+   font-size: 40px;
+ }
+ #txt-sobre p{
+   font-size: 24px;
+ }
+ /*FIM DO SOBRE MIM*/
+
+} 
+
+
+
+
+
+
+
+
+
+
+/*RESPONSIVO 1365PX*/
+@media (min-width:1365px) and
+(max-width: 1365px)
+{
+  .luna{
+    height: 300px;
+    width: 300px;
+    margin-left: 500px;
+    margin-top: 0px;
+    margin-bottom: 100px;   
+  }
+  #section-especialidades{
+    height: 80px;
+    width: 400px; 
+    margin-left: -50px;
+    margin-top: 10px;
+  }    
+    #section-especialidades h2{
+    font-size: 45px;
+    margin-top: 10px;
+    margin-left: 840px;
+    text-align: center;
+  }
+  .topo-site h1{
+    font-size: 120px; 
+    margin-left: 235px;
+    margin-top: 200px;
+    white-space: nowrap;
+  }
+  .topo-site p{
+    font-size: 40px; 
+    margin-left: 280px;
+    margin-top: 0px;
+  }
+  .paragrafinho{
+    margin-left: 125px;  
+    margin-top: 0px;
+    margin-right: 0px;
+    font-size: 30px;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+/*RESPONSIVO 830PX*/
+@media (min-width:450px) and
+(max-width: 830px)
+{
+    .flex{
+      flex-direction: column;
+    }
+  }
+  @media screen and (max-width: 830px){
+    .topo-site h1{
+      font-size: 85px; 
+      margin-left: 35px;
+      margin-top: 20px;
+      text-align: center;
+    }
+    .topo-site p{
+      font-size: 25px; 
+      margin-left: 180px;
+      margin-top: 0px;
+    }
+    .luna{
+      height: 300px;
+      width: 300px;
+      margin-left: 40px;
+      margin-top: 0px;
+      margin-bottom: 100px;
+    }
+    .topo-site img{
+      height: 300px;
+      width: 300px;
+      margin-left: 180px;
+      margin-top: 0px;
+    }
+    .topo-site{
+      height: 500px;
+      width: 100%;
+      margin-top: 5px; 
+    }
+  /*ESPECIALIDADES*/
+  .especialidades{
+    height: 800px;
+    width: 100%;
+    display: inline;
+    display: flex;
+    margin-top: 3px;
+    flex-direction: column;
+  }
+  #section-especialidades{
+    height: 80px;
+    width: 400px; 
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  #section-especialidades h2{
+    font-size: 45px;
+    margin-top: 10px;
+    margin-left: 55%;
+    text-align: center;
+  }
+  #especialidades-itens {
+    display: flex;            
+    gap: 40px;
+    margin-left: 0px;
+    flex-direction: column;
+  }
+  .especialidades-box {
+    width: 500px;            
+    padding: 0px;
+    border-radius: 10px;
+    text-align: center;
+    border: 4px solid black;
+    margin-left: 130px;
+  }
+  .especialidades-box i {
+    color: #000000;
+    font-size: 50px;
+  }
+  /*FIM DO ESPECIALIDADES*/
+  /*SOBRE MIM*/
+  #sobre {
+    background-color: #124559;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    margin-top: 3px;
+    padding-top: 0px;
+    justify-content: flex-start; 
+    align-items: center; 
+    flex-direction: column;
+  }
+  #sobre-foto img{
+    height: 300px;
+    width: 300px;
+  }
+  #sobre-foto{
+    height: 300px;
+    width: 300px;
+    margin-left: 0px;
+    margin-right: 0px; 
+    margin-top: 30px;
+  }
+  #txt-sobre{
+    margin-top: -10px;
+    margin-left: 100px;
+    font-size: 1.0rem;
+    max-width: 600px; 
+  }
+  #txt-sobre h2{
+    font-size: 30px;
+  }
+  /*FIM DO SOBRE MIM*/
+  
+  /*Botaozin*/
+ .btn-abrir-menu{
+   margin-top: 20px;
+   margin-left: 50%;
+  }
+
+  .img-port{
+   background-color: rgb(0, 255, 0);
+   height: 400px;
+   width: 500px;
+   margin-left: 150px;
+  }
+    
+  }
+  
+  
+
+
+
+
+
+
+  
+  
+/*RESPONSIVO 450PX*/
+/*TOPO DO SITE */
+@media (min-width:0px) and
+(max-width: 450px) 
+{
+  .flex{
+  flex-direction: column;
+  }
+  .topo-site h1{
+    font-size: 55px; 
+    margin-left: -320px;
+    margin-top: 50px;
+  }
+  .topo-site p{
+    font-size: 22px; 
+    margin-left: 45px;
+    margin-top: 0px;
+  }
+  .luna{
+    height: 300px;
+    width: 300px;
+    margin-left: 40px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+  .topo-site img{
+    height: 300px;
+    width: 300px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .topo-site{
+    height: 500px;
+    width: 100%;
+    margin-top: 5px;
+  }
+  /*FIM DO TOPO DO SITE */
+  /*ESPECIALIDADES*/
+  .especialidades{
+    height: 800px;
+    width: 100%;
+    display: inline;
+    display: flex;
+    margin-top: 3px;
+    flex-direction: column;
+  }
+  #section-especialidades{
+    height: 80px;
+    width: 400px; 
+    margin-left: -129px;
+    margin-top: 10px;
+  }
+  #section-especialidades h2{
+    font-size: 45px;
+    margin-top: 10px;
+    margin-left: 170px;
+  }
+  #especialidades-itens {
+    display: flex;            
+    gap: 40px;   
+    margin-left: 0px;
+    flex-direction: column;
+  }
+  .especialidades-box {
+    width: 380px;            
+    padding: 0px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+    border: 4px solid black;
+  }
+  .especialidades-box i {
+    color: #000000;
+    font-size: 50px;
+  }  
+  /*FIM DO ESPECIALIDADES*/
+  /*SOBRE MIM*/
+  #sobre {
+    background-color: #124559;
+    height: 820px;
+    width: 100%;
+    display: flex;
+    margin-top: 3px;
+    padding-top: 0px;
+    justify-content: flex-start; 
+    align-items: center;
+    flex-direction: column;
+  }
+  #sobre-foto{
+    height: 300px;
+    width: 300px;
+    margin-left: 0px;
+    margin-right: 0px; 
+    margin-top: 30px;
+  }
+  #txt-sobre{
+    margin-left: 10px;
+    font-size: 1.0rem;
+    max-width: 600px; 
+  }
+  #txt-sobre h2{
+    font-size: 30px;
+  }
+  /*FIM DO SOBRE MIM*/
+
+
+  /*Botaozin*/
+  .btn-abrir-menu{
+  margin-top: 20px;
+  margin-left: -30px;
+  }
+  .danilinho{
+    display: none;
+  }
+  
+  .paragrafinho{
+    margin-left: -125px;  
+    margin-top: 50px;
+    margin-right: 0px;
+  }
+
+  .fim img{
+    height: 70px;
+    width: 120px;
+    margin-left: 10px;
+  }
+
+    .fim p{
+    font-family: "Zilla Slab", sans serif;
+    font-size: 14px;
+  }
+  .fim-contatos{
+    margin-left: -100px;
+    white-space: nowrap;
+    margin-top: -10px;
+  }
+  .fim-contatos i{
+    color: #05206a;
+    font-size: 40px;
+  }
+  
+  .img-port{
+  background-color: rgb(0, 255, 0);
+  height: 200px;
+  width: 320px;
+  margin-left: 30px;
+  }
+
+}
+
+
+
+
+
+/*IPAD PRO 11*/
+@media (min-width:830px) and
+(max-width: 840px)
+{
+ /*Botaozin*/
+ .btn-abrir-menu{
+    margin-top: 20px;
+    margin-left: 50%;
+ }
+ .luna{
+    height: 300px;
+    width: 300px;
+    margin-left: -200px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+  #txt-sobre h2{
+    font-size: 20px;
+  }
+   #txt-sobre P{
+    font-size: 18px;
+  } 
+  
+  .img-port{
+    background-color: rgb(0, 255, 0);
+    height: 400px;
+    width: 700px;
+    margin-left: 180px;
+  }
+  
+}
+
+
+/*1366px a tela do notebook*/
+@media (min-width:1200px) and
+(max-width: 1300px)
+{
+  .img-port{
+    background-color: rgb(0, 255, 0);
+    height: 400px;
+    width: 700px;
+    margin-left: 280px;
+  }
+}
